@@ -12,18 +12,18 @@ enlaces[0].classList.add('nueva-clase');
 
 // Generar un nuevo enlace
 
-const nuevoEnlace = document.createElement('A')
+// const nuevoEnlace = document.createElement('A')
 
-//Agregar el href
-nuevoEnlace.href = 'nuevo-enlance.html';
-//agregar el texto
-nuevoEnlace.textContent = 'Tienda Virtual';
-//agregar la clase
-nuevoEnlace.classList.add('navegacion__enlace');
-//Agregar al documento
-const navegacion = document.querySelector('.navegacion')
-navegacion.appendChild(nuevoEnlace);
-console.log(nuevoEnlace);
+// //Agregar el href
+// nuevoEnlace.href = 'nuevo-enlance.html';
+// //agregar el texto
+// nuevoEnlace.textContent = 'Tienda Virtual';
+// //agregar la clase
+// nuevoEnlace.classList.add('navegacion__enlace');
+// //Agregar al documento
+// const navegacion = document.querySelector('.navegacion')
+// navegacion.appendChild(nuevoEnlace);
+// console.log(nuevoEnlace);
 
 //Eventos
 
